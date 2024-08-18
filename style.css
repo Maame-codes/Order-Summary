@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  overflow: hidden;
+  font-family: "Red Hat Display", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+}
+
+/* whole box */
+.outline {
+  width: 440px;
+  background-color: white;
+  border-radius: 30px;
+  margin: auto;
+  
+}
+
+/* illustration image */
+.outline #illustration {
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+}
+
+/* white container */
+.outline #main-container {
+  padding: 40px;
+  
+}
+
+/* order summary heading */
+#main-container h2 {
+  text-align: center;
+  font-weight: 900;
+}
+
+/* paragraph under order summary */
+.outline #summary {
+  color: lightslategrey;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+/* annual plan container */
+.outline #annual-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* keep img inline with text */
+.outline #annual-wrap #img-rec {
+  display: flex;
+  align-items: center;
+}
+
+/* "annual plan & currency text"  */
+#annual-wrap #second-rec #ann-text {
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.outline #annual-wrap #img-rec img {
+  margin-right: 20px;
+}
+
+.outline #annual-wrap > :nth-child(2) {
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+}
+
+/* currency section */
+#annual-wrap #currency {
+  font-size: 16px;
+  font-weight: 500;
+  color: lightslategray;
+
+}
+
+/* proceed to payment box */
+.outline #payment {
+  width: 100%;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 30px hsla(245, 75%, 52%, 0.5);
+  padding: 15px 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.outline #cancel-order{
+  font-size: 14px;
+  font-weight: 700;
+  color: lightslategray;
+  text-align: center;
+}
