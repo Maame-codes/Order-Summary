@@ -10,6 +10,12 @@
 body {
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
+  /* centers whole box vertically and horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 /* whole box */
@@ -18,7 +24,6 @@ body {
   background-color: white;
   border-radius: 30px;
   margin: auto;
-  
 }
 
 /* illustration image */
@@ -30,7 +35,6 @@ body {
 /* white container */
 .outline #main-container {
   padding: 40px;
-  
 }
 
 /* order summary heading */
@@ -88,7 +92,6 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: lightslategray;
-
 }
 
 /* proceed to payment box */
@@ -108,7 +111,7 @@ body {
   font-weight: 700;
 }
 
-.outline #cancel-order{
+.outline #cancel-order {
   font-size: 14px;
   font-weight: 700;
   color: lightslategray;
